@@ -147,4 +147,5 @@ ul {
     width: 100px;
     border-radius: 10px;
     margin-left: 35%;
+    cursor: pointer;
   }
