@@ -9,8 +9,8 @@ header, footer {
     background: #549ed8;
     color: white;
     text-align: center;
-    padding: 15px 0;
-    height: 10%;
+    padding: 15px 15px;
+    height: 5%;
 }
 h2{
     text-align: center;
@@ -48,4 +48,8 @@ ul {
   p{
     text-align: center;
     font-weight: bold;
+  }
+  .b1{
+    height: 100%;
+    width: 50%;
   }
