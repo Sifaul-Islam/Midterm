@@ -4,6 +4,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 10px;
+    flex-wrap: wrap;
 }
 header, footer {
     background: #549ed8;
@@ -45,11 +46,16 @@ ul {
     background-color: #549ed8;
     color: white;
   }
-  p{
-    text-align: center;
-    font-weight: bold;
-  }
   .b1{
-    height: 100%;
-    width: 50%;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .banner{
+    width: 100%;
   }
