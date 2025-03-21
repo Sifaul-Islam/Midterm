@@ -150,14 +150,14 @@ ul {
     cursor: pointer;
   }
   .submit{
-    margin: 10px;
     border: none;
-    background-color: white;
-    color: #549ed8;
+    background-color: #549ed8;
+    color: white;
     height: 30px;
     width: 100px;
-    border-radius: 50px;
+    border-radius: 100px;
     cursor: pointer;
+
   }
   .contact{
     display: flex;
@@ -166,8 +166,10 @@ ul {
     height: 100%;
   }
   form{
-    background-color: #549ed8;
     justify-content: center;
-    color: #ffffff;
     padding: 10px;
+  }
+  h2{
+    background-color: #549ed8;
+    color: white;
   }
