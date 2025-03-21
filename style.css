@@ -139,7 +139,7 @@ ul {
     justify-content: center;
   }
 
-  button{
+  .add{
     border: none;
     background-color: #549ed8;
     color: white;
@@ -148,4 +148,26 @@ ul {
     border-radius: 10px;
     margin-left: 35%;
     cursor: pointer;
+  }
+  .submit{
+    margin: 10px;
+    border: none;
+    background-color: white;
+    color: #549ed8;
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .contact{
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+    height: 100%;
+  }
+  form{
+    background-color: #549ed8;
+    justify-content: center;
+    color: #ffffff;
+    padding: 10px;
   }
